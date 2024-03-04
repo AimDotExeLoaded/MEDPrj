@@ -1,0 +1,5 @@
+Kat-NR: 1
+Thema: JS-Array-Tutorial
+Vortragender: Daniel Bagl
+Dauer: 5min
+Auflösung 1920 x 1020
