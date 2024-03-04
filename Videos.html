@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/bootstrap.js"></script>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark-subtle">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Multimedia Project</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,8 +15,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="MultimediaPrj.html">Home</a>
-                    <a class="nav-link" href="Videos.html">Videos</a>
+                    <a class="nav-link" href="MultimediaPrj.html">Home</a>
+                    <a class="nav-link active text-danger" aria-current="page" href="Videos.html">Videos</a>
                     <a class="nav-link" href="Podcasts.html ">Podcasts</a>
                     <a class="nav-link" href="Ueber_uns.html">Über uns</a>
                 </div>
@@ -24,13 +24,17 @@
         </div>
     </nav>
 
+    <br>
+
     <div class="d-flex">
-        <div class="flex-grow-1 ms-3">
-            This is some content from a media component. You can replace this with any content and adjust it as needed.
+        <div class="flex-grow-1 ms-3 text-light ">
+            In diesem Step produzieren wir ein Videotutorial. In dem Tutorial soll ihr Thema anschaulich dargestellt werden und für den Zuseher leicht verständlich sein. Der Zuseher soll danach das Thema verstehen und anwenden können. Das Tutorial soll eine Länge von 3,5-5 Minuten haben!
         </div>
     </div>
 
-    <div id="carouselExampleCaptions" class="carousel slide">
+    <br>
+
+    <div id="carouselExampleCaptions" class="carousel slide w-75 m-auto">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -43,8 +47,8 @@
                     <source src="Videos/01_Bagl/01.mp4">
                 </video>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5>Daniel Bagl</h5>
+                    <p>JavaScript Array Methods</p>
                 </div>
             </div>
             <div class="carousel-item">
@@ -52,8 +56,8 @@
                     <source src="Videos/18/18.mp4">
                 </video>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
+                    <h5>Raphael Nigl</h5>
+                    <p>JS Variablen</p>
                 </div>
             </div>
             <div class="carousel-item">
@@ -61,8 +65,8 @@
                     <source src="Videos/20_Video/20.mp4">
                 </video>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h5>Carina RIEGER</h5>
+                    <p>IF-Anweisungen</p>
                 </div>
             </div>
             <div class="carousel-item">
@@ -70,8 +74,8 @@
                     <source src="Videos/Video/MEDTvideo.mp4">
                 </video>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+                    <h5>Valentin Buga</h5>
+                    <p>Einbindung JS in HTML</p>
                 </div>
             </div>
         </div>
